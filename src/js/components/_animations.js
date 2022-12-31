@@ -1,4 +1,4 @@
-import "./../_vendor";
+import "./../vendor/gsap.min.js";
 
 const generatorTimeline = gsap.timeline();
 
