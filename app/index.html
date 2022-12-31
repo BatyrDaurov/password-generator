@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="theme-color" content="#030B00" />
+  <meta
+    name="description"
+    content="Генератор пароля онлайн, генератор пин-кода онлайн, генератор паролей, генератор пин-кодов"
+  />
+  <title>Генератор паролей | Batyr Daurov</title>
+  <link rel="stylesheet" href="css/vendor.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <script defer src="js/main.js"></script>
+</head>
+
+  <body class="page__body">
+    <div class="site-container">
+      <header class="header">
+  <div class="container header__container">
+    <h1 class="header__title">Password generator</h1>
+  </div>
+</header>
+
+      <main class="main">
+        <section class="password container">
+          <div class="password-generator">
+  <div class="password-generator__input">
+    <input
+      class="input-reset"
+      value="9ToBxXeXDENUVJAnwQQV"
+      type="text"
+      id="output"
+    />
+    <button class="btn-reset" id="copyBtn">
+      <svg width="24" height="24">
+        <use xlink:href="./img/sprite.svg#copy"></use>
+      </svg>
+    </button>
+  </div>
+  <button class="password-generator__btn btn-reset" id="generateBtn">
+    <span>Generate password</span>
+    <svg width="51" height="42">
+      <use xlink:href="./img/sprite.svg#logo"></use>
+    </svg>
+  </button>
+  <div class="password-generator__settings">
+    <form class="password-generator__slider">
+      <label for="range" class="password-generator__slider--label"
+        >Length</label
+      >
+      <div class="range-slider">
+        <input
+          id="custom-range"
+          name="range"
+          type="range"
+          min="6"
+          max="100"
+          value="12"
+        />
+      </div>
+      <span
+        class="password-generator__slider--value"
+        id="custom-range--value"
+      ></span>
+    </form>
+    <ul class="password-generator__checkboxes list-reset">
+      <li class="password-generator__checkbox">
+        <label class="custom-checkbox" data-option="Numbers">
+          <input
+            type="checkbox"
+            class="custom-checkbox__input visually-hidden"
+          />
+          <span class="custom-checkbox__text">Numbers</span>
+        </label>
+      </li>
+      <li class="password-generator__checkbox">
+        <label class="custom-checkbox" data-option="Symbols">
+          <input
+            type="checkbox"
+            class="custom-checkbox__input visually-hidden"
+          />
+          <span class="custom-checkbox__text">Symbols</span>
+        </label>
+      </li>
+      <li class="password-generator__checkbox">
+        <label class="custom-checkbox" data-option="Uppercase">
+          <input
+            type="checkbox"
+            class="custom-checkbox__input visually-hidden"
+          />
+          <span class="custom-checkbox__text">Uppercase</span>
+        </label>
+      </li>
+    </ul>
+  </div>
+</div>
+
+          <div class="password-history">
+  <h2 class="password-history__title">History:</h2>
+  <div class="password-history__wrapper password-history__wrapper--empty">
+    <ul class="password-history__list list-reset" id="historyList">
+      <li class="password-history__item">
+        <span class="password-history__joke"
+          >It’s quiet here, too quiet…</span
+        >
+      </li>
+    </ul>
+    <button class="password-history__clear btn-reset" id="clearBtn">
+      Clear history
+    </button>
+  </div>
+</div>
+
+        </section>
+      </main>
+
+      <footer class="footer">
+  <div class="container footer__container">
+    <nav class="nav">
+      <a
+        href="https://github.com/BatyrDaurov"
+        target="_blank"
+        rel="noopener noreferrer"
+        >AUTHOR</a
+      >
+      <a
+        href="https://github.com/BatyrDaurov/password-generator"
+        target="_blank"
+        rel="noopener noreferrer"
+        >SOURCE CODE</a
+      >
+      <a href="./pin-code.html" target="_blank" rel="noopener noreferrer"
+        >PIN-CODE</a
+      >
+    </nav>
+  </div>
+</footer>
+
+    </div>
+  </body>
+</html>

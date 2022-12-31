@@ -1,4 +1,4 @@
-const { src, dest, series, watch } = require("gulp");
+const { src, dest, series, watch, task } = require("gulp");
 const autoprefixer = require("gulp-autoprefixer");
 const cleanCSS = require("gulp-clean-css");
 const del = require("del");
@@ -44,6 +44,10 @@ const paths = {
   srcPartialsFolder: `${srcFolder}/partials`,
   resourcesFolder: `${srcFolder}/resources`,
 };
+
+task("deploy", function () {
+  return src("./build/**/*").pipe(ghPages());
+});
 
 let isProd = false; // dev by default
 
@@ -289,10 +293,6 @@ const htmlInclude = () => {
     .pipe(dest(buildFolder))
     .pipe(browserSync.stream());
 };
-
-gulp.task("deploy", function () {
-  return gulp.src("./build/**/*").pipe(ghPages());
-});
 
 const watchFiles = () => {
   browserSync.init({
