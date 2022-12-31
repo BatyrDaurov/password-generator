@@ -111,7 +111,7 @@ class Generator {
       staticPassword = "0123456789";
     }
     // Создаем рандомный пароль
-    for (let i = 0; i <= this.slider.value; i++) {
+    for (let i = 0; i < this.slider.value; i++) {
       this._randomPassword +=
         staticPassword[Math.floor(Math.random() * staticPassword.length)];
     }
