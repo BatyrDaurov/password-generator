@@ -48,13 +48,9 @@ __webpack_require__.r(__webpack_exports__);
 /*!***************************!*\
   !*** ./src/js/_vendor.js ***!
   \***************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ (() => {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _vendor_gsap_min__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./vendor/gsap.min */ "./src/js/vendor/gsap.min.js");
-/* harmony import */ var _vendor_gsap_min__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_vendor_gsap_min__WEBPACK_IMPORTED_MODULE_0__);
-
+// import "./vendor/gsap.min";
 
 /***/ }),
 
@@ -3281,6 +3277,7 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./_components */ "./src/js/_components.js");
 /* harmony import */ var _vendor__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./_vendor */ "./src/js/_vendor.js");
+/* harmony import */ var _vendor__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_vendor__WEBPACK_IMPORTED_MODULE_1__);
 
 
 })();
