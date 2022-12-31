@@ -44,16 +44,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/js/_vendor.js":
-/*!***************************!*\
-  !*** ./src/js/_vendor.js ***!
-  \***************************/
-/***/ (() => {
-
-// import "./vendor/gsap.min";
-
-/***/ }),
-
 /***/ "./src/js/components/_animations.js":
 /*!******************************************!*\
   !*** ./src/js/components/_animations.js ***!
@@ -3276,8 +3266,7 @@ var __webpack_exports__ = {};
   \************************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./_components */ "./src/js/_components.js");
-/* harmony import */ var _vendor__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./_vendor */ "./src/js/_vendor.js");
-/* harmony import */ var _vendor__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_vendor__WEBPACK_IMPORTED_MODULE_1__);
+Object(function webpackMissingModule() { var e = new Error("Cannot find module './_vendor'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
 
 
 })();
