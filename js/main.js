@@ -176,7 +176,7 @@ var Generator = /*#__PURE__*/function () {
       } // Создаем рандомный пароль
 
 
-      for (var i = 0; i <= this.slider.value; i++) {
+      for (var i = 0; i < this.slider.value; i++) {
         this._randomPassword += staticPassword[Math.floor(Math.random() * staticPassword.length)];
       } // Его вывод
 
@@ -3266,8 +3266,6 @@ var __webpack_exports__ = {};
   \************************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./_components */ "./src/js/_components.js");
-Object(function webpackMissingModule() { var e = new Error("Cannot find module './_vendor'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
-
 
 })();
 
