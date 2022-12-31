@@ -69,7 +69,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "animatePreviousPass": () => (/* binding */ animatePreviousPass)
 /* harmony export */ });
-/* harmony import */ var _vendor__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../_vendor */ "./src/js/_vendor.js");
+/* harmony import */ var _vendor_gsap_min_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../vendor/gsap.min.js */ "./src/js/vendor/gsap.min.js");
+/* harmony import */ var _vendor_gsap_min_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_vendor_gsap_min_js__WEBPACK_IMPORTED_MODULE_0__);
 
 var generatorTimeline = gsap.timeline();
 generatorTimeline.from(".header", {
