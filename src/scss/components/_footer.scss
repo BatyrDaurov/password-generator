@@ -1,0 +1,44 @@
+.footer {
+    height: 80px;
+    &__container {
+        height: 100%;
+    }
+    .nav {
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        gap: 40px;
+        padding-bottom: 1.5rem;
+        a {
+            position: relative;
+            display: block;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: inherit;
+            &:not(:last-child)::after {
+                content: '';
+                display: inline-block;
+                position: absolute;
+                top: -5px;
+                width: 2px;
+                height: 25px;
+                margin: auto 0;
+                margin-left: 19px;
+                background-color: #BBBBBB;
+                @include mobile {
+                    margin-left: 8px;
+                }
+            }
+            @include mobile {
+                font-size: 15px;
+            }
+        }
+        @include mobile {
+            gap: 20px;
+        }
+    }
+    @include mobile {
+        height: 200px;
+    }
+}

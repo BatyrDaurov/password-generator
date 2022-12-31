@@ -1,0 +1,29 @@
+.header{
+    padding-top: 100px;
+    &__title {
+        margin: 0;
+        font-family: 'VALORANT';
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 110.5%;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--primary-color);
+
+        text-align: center;
+        text-shadow: 0px -1px 7px rgba(218, 251, 63, 0.8);
+        @include medium {
+            font-size: 52px;
+        }
+        @include small-tablet {
+            font-size: calc(48px + 16 * (100vw / 1280));
+            text-align: left;
+        }
+        @include mobile {
+            font-size: calc(34px + 16 * (100vw / 1280));
+        }
+    }
+    @include medium {
+        padding-top: 50px;
+    }
+}
