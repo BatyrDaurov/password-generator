@@ -40,3 +40,8 @@
     @content;
   }
 }
+@mixin checkbox-media {
+  @media (min-width: (768px)) {
+    @content;
+  }
+}

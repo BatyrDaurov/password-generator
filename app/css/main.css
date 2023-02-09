@@ -1,1 +1,693 @@
-@import url(https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;600&display=swap);:root{--primary-color:#DAFB3F;--secondary-color:#BBFCF7;--background-color:#030B00;--input-color:#0E1508}@font-face{font-family:Valorant;src:url(../fonts/Valorant.woff2) format("woff2");font-weight:400;font-display:swap;font-style:normal}html{-webkit-box-sizing:border-box;box-sizing:border-box;scroll-behavior:smooth;height:100%}*,::after,::before{-webkit-box-sizing:inherit;box-sizing:inherit}footer,header{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto}main{-webkit-box-flex:1;-ms-flex:1 0 auto;flex:1 0 auto;margin-top:150px}@media (max-width:1140px){main{margin-top:100px}}body{position:relative;overflow-anchor:none;margin:0;min-width:320px;height:100%;font-family:Overpass,sans-serif;font-size:16px;color:#fff;background-color:var(--background-color)}img{height:auto;max-width:100%;-o-object-fit:cover;object-fit:cover}.is-hidden{display:none!important}.site-container{-webkit-text-size-adjust:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;height:100%}.btn-reset{border:none;padding:0;background:0 0;cursor:pointer}.list-reset{list-style:none;margin:0;padding:0}.input-reset{-webkit-appearance:none;-moz-appearance:none;appearance:none;border:none;border-radius:0;background-color:transparent}.input-reset::-webkit-search-cancel-button,.input-reset::-webkit-search-decoration,.input-reset::-webkit-search-results-button,.input-reset::-webkit-search-results-decoration{display:none}.container{position:relative;margin:0 auto;padding:0 15px;max-width:1167px}.visually-hidden{position:absolute;overflow:hidden;margin:-1px;border:0;padding:0;width:1px;height:1px;clip:rect(0 0 0 0)}.page--ios .dis-scroll{position:relative}.to-top{position:fixed;right:2%;bottom:5%;z-index:200;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;border-radius:100%;width:48px;height:48px;-webkit-box-shadow:0 5px 30px rgba(0,0,0,.1);box-shadow:0 5px 30px rgba(0,0,0,.1);background-color:var(--color-white)}.header{padding-top:100px}.header__title{margin:0;font-family:VALORANT;font-weight:400;font-size:64px;line-height:110.5%;letter-spacing:.06em;text-transform:uppercase;color:var(--primary-color);text-align:center;text-shadow:0 -1px 7px rgba(218,251,63,.8)}@media (max-width:1140px){.header__title{font-size:52px}.header{padding-top:50px}}@media (max-width:768px){main{margin-top:60px}.header__title{font-size:calc(48px + 1.25vw);text-align:left}.custom-checkbox:hover .custom-checkbox__input+span::before{background-color:var(--secondary-color)}}.footer{height:80px}.footer__container{height:100%}.footer .nav{height:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;gap:40px;padding-bottom:1.5rem}.footer .nav a{position:relative;display:block;text-decoration:none;text-transform:uppercase;color:inherit}.footer .nav a:not(:last-child)::after{content:"";display:inline-block;position:absolute;top:-5px;width:2px;height:25px;margin:auto 0 auto 19px;background-color:#bbb}@media (max-width:576px){main{margin-top:40px}.header__title{font-size:calc(34px + 1.25vw)}.footer .nav a:not(:last-child)::after{margin-left:8px}.footer .nav a{font-size:15px}.footer .nav{gap:20px}.footer{height:200px}}.password-generator{font-family:Overpass;min-width:610px}.password-generator__settings{padding-left:7px;margin-top:90px}.password-generator__slider{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-wrap:wrap;flex-wrap:wrap;gap:5px;margin-bottom:61px}.password-generator__slider--label,.password-generator__slider--value{display:block;padding-top:6px;font-size:24px;font-weight:500;line-height:24px;letter-spacing:.05em;text-transform:uppercase;color:#fff}.password-generator__slider--value{width:44px;text-align:right}.password-generator__slider .range-slider{width:65%}.password-generator__slider #custom-range{-webkit-appearance:none;-moz-appearance:none;appearance:none;outline:0;width:100%;height:2px;background-color:var(--primary-color)}.password-generator__slider #custom-range::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;cursor:pointer;width:23px;height:25px;background-color:var(--secondary-color)}.password-generator__input{position:relative;margin-bottom:20px;max-width:610px;height:80px;border:2px solid var(--primary-color)}.password-generator__input input{width:100%;height:100%;padding:0 35px;font-weight:600;font-size:24px;letter-spacing:.06em;color:var(--primary-color);background-color:var(--input-color)!important}.password-generator__input input:focus{outline:0}.password-generator__input button{height:24px;width:24px;position:absolute;top:50%;right:28px;z-index:10;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}.password-generator__input button svg{pointer-events:none;fill:var(--primary-color)}@media (max-width:1023.68px){.password-generator{min-width:0}.password-generator__settings{margin-top:70px}.password-generator__input{max-width:100%}}.password-generator__btn{position:relative;height:80px;width:310px;padding:0 34px 0 40px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;background-color:var(--primary-color);background:-o-linear-gradient(45deg,transparent 25px,var(--primary-color) 0);background:linear-gradient(45deg,transparent 25px,var(--primary-color) 0);-webkit-transition:.25s;-o-transition:.25s;transition:.25s}@media (max-width:576px){.password-generator__slider--label,.password-generator__slider--value{font-size:18px}.password-generator__slider .range-slider{width:50%}.password-generator__input input{padding:0 60px 0 20px;font-size:20px}.password-generator__input button{right:20px}.password-generator__btn{width:100%;height:70px;gap:2rem}}.password-generator__btn::after,.password-generator__btn::before{content:"";display:block;position:absolute;top:0;left:0;bottom:0;right:0;z-index:-1;width:100%;height:100%;opacity:0;background:-o-linear-gradient(45deg,transparent 25px,var(--primary-color) 0);background:linear-gradient(45deg,transparent 25px,var(--primary-color) 0);-webkit-transition:.25s;-o-transition:.25s;transition:.25s}.password-generator__btn:hover{-webkit-transform:translateY(-2px);-ms-transform:translateY(-2px);transform:translateY(-2px);background:-o-linear-gradient(45deg,transparent 25px,#d8fb3f .5);background:linear-gradient(45deg,transparent 25px,#d8fb3f .5)}.password-generator__btn:hover::before{opacity:.3;top:5px;left:5px}.password-generator__btn:hover::after{opacity:.5;top:-5px;left:-5px}.password-generator__btn span{pointer-events:none;display:block;font-family:VALORANT;font-weight:400;font-size:22px;color:var(--background-color);text-align:left}.password-generator__btn svg{pointer-events:none}.password-generator__checkboxes{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-wrap:wrap;flex-wrap:wrap;gap:5px}@media (max-width:576px){.password-generator__btn span{font-size:20px}.password-generator__checkboxes{gap:3rem;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.password-generator__checkbox{width:180px}}.custom-checkbox{display:inline-block;font-family:Overpass;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.custom-checkbox__text{position:relative;padding-left:37px;font-weight:400;font-size:20px;line-height:113%;letter-spacing:.105em;text-transform:uppercase;color:#fff;-webkit-transition:.2s;-o-transition:.2s;transition:.2s}.custom-checkbox__text::before{content:"";position:absolute;left:0;top:0;border:2px solid var(--secondary-color);width:24px;height:24px}.custom-checkbox__text:hover{color:var(--color-dark)}.custom-checkbox__input:checked+span::before{background-color:var(--secondary-color)}.password-history{font-family:Overpass;min-width:368px}.password-history__wrapper{height:calc(100% - 80px);display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.password-history__wrapper--empty .password-history__clear{display:none}.password-history__wrapper--empty .password-history__list{opacity:1!important}.password-history__title{margin:0 0 40px;font-family:VALORANT;font-weight:400;font-size:36px;line-height:110.5%;letter-spacing:.06em;text-transform:uppercase;color:#fff}.password-history__list{max-height:228px;overflow-y:auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-flex:1;-ms-flex:1 0 auto;flex:1 0 auto;gap:17px;-webkit-mask-image:-webkit-gradient(linear,left top,left bottom,color-stop(60%,#fff),to(transparent));-webkit-mask-image:linear-gradient(180deg,#fff 60%,transparent)}.password-history__list::-webkit-scrollbar{display:none}.password-history__item{cursor:pointer;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;gap:10px}.password-history__item:hover .password-history__btn svg{fill:var(--secondary-color)}.password-history__item:hover .password-history__pass{color:var(--secondary-color)}.password-history__btn{height:24px;pointer-events:none;z-index:2;background-color:var(--background-color)}.password-history__btn svg{fill:#cfcfcf;-webkit-transition:.15s linear;-o-transition:.15s linear;transition:.15s linear}.password-history__clear{margin-top:3rem;-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto;-ms-flex-item-align:end;-ms-grid-row-align:end;align-self:end;font-weight:500;font-size:24px;line-height:113%;letter-spacing:.105em;text-transform:uppercase;color:var(--secondary-color)}.password-history__pass{max-width:320px;overflow:hidden;pointer-events:none;display:block;font-weight:300;font-size:20px;line-height:100%;letter-spacing:.06em;-webkit-transition:.15s linear;-o-transition:.15s linear;transition:.15s linear;padding-top:3px;color:#cfcfcf}@media (max-width:576px){.password-history__pass{max-width:240px}}.password{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;gap:1rem;-ms-flex-wrap:wrap;flex-wrap:wrap}@media (max-width:1140px){.password-history{min-width:0}.password{display:-ms-grid;display:grid;-ms-grid-columns:(1fr)[2];grid-template-columns:repeat(2,1fr);gap:5rem}}@media (max-width:1023.68px){.password{-ms-grid-columns:1fr;grid-template-columns:1fr;gap:7rem}}.pin-code .custom-checkbox{opacity:.8;pointer-events:none}
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;600&display=swap");
+:root {
+  --primary-color: #DAFB3F;
+  --secondary-color: #BBFCF7;
+  --background-color: #030B00;
+  --input-color: #0E1508;
+}
+
+/* stylelint-disable */ /* stylelint-disable */ /* stylelint-disable */ /* stylelint-disable */
+@font-face {
+  font-family: "Valorant";
+  src: url("../fonts/Valorant.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+  font-style: "normal";
+}
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+header {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+main {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  margin-top: 150px;
+}
+@media (max-width: 1140px) {
+  main {
+    margin-top: 100px;
+  }
+}
+@media (max-width: 768px) {
+  main {
+    margin-top: 60px;
+  }
+}
+@media (max-width: 576px) {
+  main {
+    margin-top: 40px;
+  }
+}
+
+footer {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+body {
+  position: relative;
+  overflow-anchor: none;
+  margin: 0;
+  min-width: 320px;
+  height: 100%;
+  font-family: "Overpass", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  background-color: var(--background-color);
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.is-hidden {
+  display: none !important; /* stylelint-disable-line declaration-no-important */
+}
+
+.site-container {
+  -webkit-text-size-adjust: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+}
+
+.btn-reset {
+  border: none;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.list-reset {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.input-reset {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+}
+.input-reset::-webkit-search-decoration, .input-reset::-webkit-search-cancel-button, .input-reset::-webkit-search-results-button, .input-reset::-webkit-search-results-decoration {
+  display: none;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1167px;
+}
+
+.visually-hidden {
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  clip: rect(0 0 0 0);
+}
+
+.page--ios .dis-scroll {
+  position: relative;
+}
+
+.to-top {
+  position: fixed;
+  right: 2%;
+  bottom: 5%;
+  z-index: 200;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 100%;
+  width: 48px;
+  height: 48px;
+  -webkit-box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+  background-color: var(--color-white);
+}
+
+.header {
+  padding-top: 100px;
+}
+.header__title {
+  margin: 0;
+  font-family: "VALORANT";
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 110.5%;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  text-align: center;
+  text-shadow: 0px -1px 7px rgba(218, 251, 63, 0.8);
+}
+@media (max-width: 1140px) {
+  .header__title {
+    font-size: 52px;
+  }
+}
+@media (max-width: 768px) {
+  .header__title {
+    font-size: calc(48px + 1.25vw);
+    text-align: left;
+  }
+}
+@media (max-width: 576px) {
+  .header__title {
+    font-size: calc(34px + 1.25vw);
+  }
+}
+@media (max-width: 1140px) {
+  .header {
+    padding-top: 50px;
+  }
+}
+
+.footer {
+  height: 80px;
+}
+.footer__container {
+  height: 100%;
+}
+.footer .nav {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 40px;
+  padding-bottom: 1.5rem;
+}
+.footer .nav a {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: inherit;
+}
+.footer .nav a:not(:last-child)::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: -5px;
+  width: 2px;
+  height: 25px;
+  margin: auto 0;
+  margin-left: 19px;
+  background-color: #BBBBBB;
+}
+@media (max-width: 576px) {
+  .footer .nav a:not(:last-child)::after {
+    margin-left: 8px;
+  }
+}
+@media (max-width: 576px) {
+  .footer .nav a {
+    font-size: 15px;
+  }
+}
+@media (max-width: 576px) {
+  .footer .nav {
+    gap: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .footer {
+    height: 200px;
+  }
+}
+
+.password-generator {
+  font-family: "Overpass";
+  min-width: 610px;
+}
+@media (max-width: 1023.68px) {
+  .password-generator {
+    min-width: 0;
+  }
+}
+.password-generator__settings {
+  padding-left: 7px;
+  margin-top: 90px;
+}
+@media (max-width: 1023.68px) {
+  .password-generator__settings {
+    margin-top: 70px;
+  }
+}
+.password-generator__slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-bottom: 61px;
+}
+.password-generator__slider--label, .password-generator__slider--value {
+  display: block;
+  padding-top: 6px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #fff;
+}
+@media (max-width: 576px) {
+  .password-generator__slider--label, .password-generator__slider--value {
+    font-size: 18px;
+  }
+}
+.password-generator__slider--value {
+  width: 44px;
+  text-align: right;
+}
+.password-generator__slider .range-slider {
+  width: 65%;
+}
+@media (max-width: 576px) {
+  .password-generator__slider .range-slider {
+    width: 50%;
+  }
+}
+.password-generator__slider #custom-range {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  width: 100%;
+  height: 2px;
+  background-color: var(--primary-color);
+}
+.password-generator__slider #custom-range::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  cursor: pointer; /* Cursor on hover */
+  width: 23px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background-color: var(--secondary-color); /* Green background */
+}
+.password-generator__input {
+  position: relative;
+  margin-bottom: 20px;
+  max-width: 610px;
+  height: 80px;
+  border: 2px solid var(--primary-color);
+}
+.password-generator__input input {
+  width: 100%;
+  height: 100%;
+  padding: 0 35px;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 0.06em;
+  color: var(--primary-color);
+  background-color: var(--input-color) !important;
+}
+@media (max-width: 576px) {
+  .password-generator__input input {
+    padding: 0 60px 0 20px;
+    font-size: 20px;
+  }
+}
+.password-generator__input input:focus {
+  outline: 0;
+}
+.password-generator__input button {
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  top: 50%;
+  right: 28px;
+  z-index: 10;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+@media (max-width: 576px) {
+  .password-generator__input button {
+    right: 20px;
+  }
+}
+.password-generator__input button svg {
+  pointer-events: none;
+  fill: var(--primary-color);
+}
+@media (max-width: 1023.68px) {
+  .password-generator__input {
+    max-width: 100%;
+  }
+}
+.password-generator__btn {
+  position: relative;
+  height: 80px;
+  width: 310px;
+  padding: 0 34px 0 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: var(--primary-color);
+  background: -o-linear-gradient(45deg, transparent 25px, var(--primary-color) 0);
+  background: linear-gradient(45deg, transparent 25px, var(--primary-color) 0);
+  -webkit-transition: 0.25s ease;
+  -o-transition: 0.25s ease;
+  transition: 0.25s ease;
+}
+@media (max-width: 576px) {
+  .password-generator__btn {
+    width: 100%;
+    height: 70px;
+    gap: 2rem;
+  }
+}
+.password-generator__btn::before, .password-generator__btn::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background: -o-linear-gradient(45deg, transparent 25px, var(--primary-color) 0);
+  background: linear-gradient(45deg, transparent 25px, var(--primary-color) 0);
+  -webkit-transition: 0.25s ease;
+  -o-transition: 0.25s ease;
+  transition: 0.25s ease;
+}
+.password-generator__btn:hover {
+  -webkit-transform: translateY(-2px);
+  -ms-transform: translateY(-2px);
+  transform: translateY(-2px);
+  background: -o-linear-gradient(45deg, transparent 25px, rgb(216, 251, 63) 0.5);
+  background: linear-gradient(45deg, transparent 25px, rgb(216, 251, 63) 0.5);
+}
+.password-generator__btn:hover::before {
+  opacity: 0.3;
+  top: 5px;
+  left: 5px;
+}
+.password-generator__btn:hover::after {
+  opacity: 0.5;
+  top: -5px;
+  left: -5px;
+}
+.password-generator__btn span {
+  pointer-events: none;
+  display: block;
+  font-family: "VALORANT";
+  font-weight: 400;
+  font-size: 22px;
+  color: var(--background-color);
+  text-align: left;
+}
+@media (max-width: 576px) {
+  .password-generator__btn span {
+    font-size: 20px;
+  }
+}
+.password-generator__btn svg {
+  pointer-events: none;
+}
+.password-generator__checkboxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+@media (max-width: 576px) {
+  .password-generator__checkboxes {
+    gap: 3rem;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 576px) {
+  .password-generator__checkbox {
+    width: 180px;
+  }
+}
+
+.custom-checkbox {
+  display: inline-block;
+  font-family: "Overpass";
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+@media (min-width: 768px) {
+  .custom-checkbox:hover .custom-checkbox__input + span::before {
+    background-color: var(--secondary-color);
+  }
+}
+.custom-checkbox__text {
+  position: relative;
+  padding-left: 37px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 113%;
+  letter-spacing: 0.105em;
+  text-transform: uppercase;
+  color: #ffffff;
+  -webkit-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+.custom-checkbox__text::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 2px solid var(--secondary-color);
+  width: 24px;
+  height: 24px;
+}
+.custom-checkbox__text:hover {
+  color: var(--color-dark);
+}
+.custom-checkbox__input:checked + span::before {
+  background-color: var(--secondary-color);
+}
+
+.password-history {
+  font-family: "Overpass";
+  min-width: 368px;
+}
+@media (max-width: 1140px) {
+  .password-history {
+    min-width: 0;
+  }
+}
+.password-history__wrapper {
+  height: calc(100% - 80px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.password-history__wrapper--empty .password-history__clear {
+  display: none;
+}
+.password-history__wrapper--empty .password-history__list {
+  opacity: 1 !important;
+}
+.password-history__title {
+  margin: 0;
+  margin-bottom: 40px;
+  font-family: "VALORANT";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 110.5%;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.password-history__list {
+  max-height: 228px;
+  overflow-y: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  gap: 17px;
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(60%, rgb(255, 255, 255)), to(transparent));
+  -webkit-mask-image: linear-gradient(180deg, rgb(255, 255, 255) 60%, transparent);
+}
+.password-history__list::-webkit-scrollbar {
+  display: none;
+}
+.password-history__item {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  gap: 10px;
+}
+.password-history__item:hover .password-history__btn svg {
+  fill: var(--secondary-color);
+}
+.password-history__item:hover .password-history__pass {
+  color: var(--secondary-color);
+}
+.password-history__btn {
+  height: 24px;
+  pointer-events: none;
+  z-index: 2;
+  background-color: var(--background-color);
+}
+.password-history__btn svg {
+  fill: #CFCFCF;
+  -webkit-transition: 0.15s linear;
+  -o-transition: 0.15s linear;
+  transition: 0.15s linear;
+}
+.password-history__clear {
+  margin-top: 3rem;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -ms-flex-item-align: end;
+  -ms-grid-row-align: end;
+  align-self: end;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 113%;
+  letter-spacing: 0.105em;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+}
+.password-history__pass {
+  max-width: 320px;
+  overflow: hidden;
+  pointer-events: none;
+  display: block;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0.06em;
+  -webkit-transition: 0.15s linear;
+  -o-transition: 0.15s linear;
+  transition: 0.15s linear;
+  padding-top: 3px;
+  color: #CFCFCF;
+}
+@media (max-width: 576px) {
+  .password-history__pass {
+    max-width: 240px;
+  }
+}
+
+.password {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  gap: 1rem;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+@media (max-width: 1140px) {
+  .password {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+  }
+}
+@media (max-width: 1023.68px) {
+  .password {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    gap: 7rem;
+  }
+}
+
+.pin-code .custom-checkbox {
+  opacity: 0.8;
+  pointer-events: none;
+}
+/*# sourceMappingURL=main.css.map */

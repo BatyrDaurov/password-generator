@@ -1,7 +1,7 @@
 import _vars from "../_vars";
 import { animatePreviousPass } from "./_animations";
 
-const characters = {
+const OPTIONS = {
   uppercase: "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
   numbers: "0123456789",
   symbols: "^!$%&|[](){}:;.,*+-#@<>~",
@@ -62,17 +62,21 @@ class Generator {
     }
     // Добавление пароля в историю
     if (prevPassword) {
-      this.history.insertAdjacentHTML(
-        "afterbegin",
-        `<li class="password-history__item" id="previousPassword">
-            <span class="password-history__pass">${prevPassword}</span>
-            <button class="password-history__btn btn-reset">
-                <svg width="24" height="24">
-                    <use xlink:href="./img/sprite.svg#copy"></use>
-                </svg>
-            </button>
-        </li>`
-      );
+      const li = document.createElement("li");
+      const pass = document.createElement("code");
+      const btn = document.createElement("button");
+      li.className = "password-history__item";
+      pass.className = "password-history__pass";
+      pass.innerText = prevPassword;
+      btn.className = "password-history__btn btn-reset";
+      btn.innerHTML = `
+        <svg width="24" height="24">
+          <use xlink:href="./img/sprite.svg#copy"></use>
+        </svg>`;
+      li.appendChild(pass);
+      li.appendChild(btn);
+
+      this.history.appendChild(li);
       this._firstHistoryChild = false;
     }
   }
@@ -102,7 +106,7 @@ class Generator {
       this.options.forEach((option) => {
         if (option.checked) {
           staticPassword +=
-            characters[
+            OPTIONS[
               option.parentElement.getAttribute("data-option").toLowerCase()
             ];
         }
