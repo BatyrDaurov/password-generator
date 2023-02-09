@@ -76,7 +76,7 @@ class Generator {
       li.appendChild(pass);
       li.appendChild(btn);
 
-      this.history.appendChild(li);
+      this.history.insertAdjacentElement("afterbegin", li);
       this._firstHistoryChild = false;
     }
   }
